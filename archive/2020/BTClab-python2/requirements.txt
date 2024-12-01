@@ -1,0 +1,6 @@
+python-bitcoinrpc
+bitcoin
+base58
+ecdsa
+pyasn1
+httplib2
