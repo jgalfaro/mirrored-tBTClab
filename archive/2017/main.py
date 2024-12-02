@@ -398,10 +398,11 @@ def store_keys(sk, pk, btc_addr):
 #           Raw transaction building            #
 #################################################
 
-# ---------------------------------------------------------------------------------------------------------------------
-# Down bellow he inputs of the raw transaction builder can be found. Each item should be inserted in the corresponding
-# list, separated by commas.
-# ---------------------------------------------------------------------------------------------------------------------
+# -----------------------------------------------
+# Down below, the inputs of the raw transaction
+# builder can be found. Each item should be inserted
+# in the corresponding list, separated by commas.
+# -----------------------------------------------
 
 # Reference to the previous transaction where the funds will be redeemed and spent. Consists in an id an an output.
 prev_tx_id = ['b95388edda2b043eaffee948f804c7100c3c1098b32070510f2c8bceeb1ccea8']
