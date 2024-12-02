@@ -388,8 +388,10 @@ def store_keys(sk, pk, btc_addr):
     open(btc_addr + '/sk.pem', "w").write(sk)
     open(btc_addr + '/pk.pem', "w").write(pk)
 
+#################################################
+#           Create address & store keys         #
+#################################################
 # store_keys(sk.to_pem(), pk.to_pem(), btc_addr)
-
 # print btc_addr
 
 #################################################
